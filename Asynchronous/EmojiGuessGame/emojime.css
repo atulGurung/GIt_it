@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Game Container */
+#game {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+/* Emoji Display */
+#description {
+    font-size: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Guess Input */
+#guess-input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#guess-input:focus {
+    border-color: #4caf50;
+}
+
+/* Result Text */
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Score Text */
+#score {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Timer Bar Background */
+#timer {
+    position: relative;
+    background: #eee;
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Timer Bar Fill */
+#timer-bar {
+    height: 100%;
+    width: 100%;
+    background: #4caf50;
+    transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+/* Timer Text */
+#timer-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+

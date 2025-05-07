@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #a5e992, #6dd6db);     
+}
+.containerr {
+    margin-top: 5.5rem;
+    margin-left: 25.5rem;
+    height: 25.5rem;
+    width: 40.5rem;
+    background: linear-gradient(to right, #6dd6db, #a5e992);
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px black;
+}
+
+#guess-input {
+    margin-top: 3.5rem;
+    width: 20rem;
+}
+
+#score {
+    margin-top: 2.5rem;
+}
+
+.headings {
+    margin-top: 10.5rem;
+    word-spacing: 1px;
+}
+
+#description {
+    margin-top: 3.5rem;
+    font-size: 94px;
+    text-align: center;
+    line-height: 1;
+}

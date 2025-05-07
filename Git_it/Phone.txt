@@ -1,1 +1,3 @@
 <i class="fa fa-phone" aria-hidden="true"></i>
+touchscreen
+scratchless gorilla-glass-vistus
